@@ -1,0 +1,28 @@
+{
+	"name": "project-backend",
+	"version": "1.0.0",
+	"description": "project-backend",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+	},
+	"author": "jainaayush01",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^8.9.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"nodemon": "^2.0.15",
+		"prettier": "^2.5.1"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.2",
+		"express-validator": "^6.14.0",
+		"mongoose": "^6.2.1"
+	}
+}
